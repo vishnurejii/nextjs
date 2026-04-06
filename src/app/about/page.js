@@ -1,10 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-export default function Home() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-      <Link href="/about?dell-laptop">About</Link>
-    </div>
-  );
+export default function About() {
+  return <div>About Page</div>;
 }
